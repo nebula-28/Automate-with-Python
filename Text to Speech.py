@@ -6,7 +6,7 @@
 
 from gtts import gTTS 
 import os # This module is imported so that we can play the converted audio 
-file = open("text for text to speech.txt","r").read()
+file = open("input_text_file.txt","r").read()
 
 speech = gTTS(text=file, lang='en', slow=False)
 # Passing the text and language to the engine,here we have marked slow=False. Which tells the module that the converted audio should have a high speed 
