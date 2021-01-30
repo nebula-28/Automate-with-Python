@@ -14,7 +14,7 @@ if __name__=='__main__':
     diction = dict(zips)
     filename=input('Enter File Path which needs search and replace \n')
     with open(filename ,'r')as f:
-        text = (f.read()).replace('context.','')
+        text = (f.read()).replace('context.','')#the context replace is optional
         replaced=replace_keys(text, diction)
     savefilename=input('Enter File Path for new file \n')
     with open(savefilename ,'x')as f:
