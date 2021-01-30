@@ -1,5 +1,10 @@
-import speech_recognition as sr
+#Modules needed for speech to text
+#pip install pip install speechrecognition
+#pip install pipwin
+#pipwin install pyaudio
 
+
+import speech_recognition as sr
 def speaker():
 	recognizer = sr.Recognizer()	
 
